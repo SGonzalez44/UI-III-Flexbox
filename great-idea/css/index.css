@@ -86,9 +86,11 @@ nav{
 	justify-content:space-evenly;
 	margin-bottom: 25px;
 }
-li{
+a{
 	margin:10px;
-	justify-content: space-evenly
+	justify-content: space-evenly;
+	text-decoration: none;
+	color: black;
 }
 .container1{
 	display: flex;
@@ -154,7 +156,7 @@ footer{
 	margin: 20px;
 }
 li{
-	flex: 1 1 1;
+	flex: 1 1 o;
 }
 .logo{
 	float:right;
