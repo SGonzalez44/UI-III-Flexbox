@@ -83,25 +83,26 @@ width:900px;
 }
 nav{
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-evenly;
 	margin-bottom: 25px;
 }
 li{
 	margin:10px;
+	justify-content: space-evenly
 }
 .container1{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	
   }
   .container2{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	
   }
   .container3{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
   }
 
 .box{
@@ -150,7 +151,11 @@ ul{
 }
 footer{
 	text-align: center;
+	margin: 20px;
 }
 li{
-	flex: 1 1 0;
+	flex: 1 1 1;
+}
+.logo{
+	float:right;
 }
