@@ -77,8 +77,17 @@ header{
 body{
 
 margin:100px;
+width:900px;
 	
 	
+}
+nav{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom: 25px;
+}
+li{
+	margin:10px;
 }
 .container1{
 	display: flex;
