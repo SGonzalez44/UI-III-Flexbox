@@ -64,68 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-header{
-	text-align: center;
-}
-.logo{
-	float: right;
-
-}
-
-
 body{
 
-margin:100px;
-width:900px;
-	
-	
+margin: auto;
+width:900px;	
 }
 nav{
 	display:flex;
 	justify-content:space-evenly;
 	margin-bottom: 25px;
 }
-a{
-	margin:10px;
-	justify-content: space-evenly;
-	text-decoration: none;
+ a{
+    text-decoration: none;
 	color: black;
 }
-.container1{
+.container{
 	display: flex;
-	justify-content: space-evenly;
-	
-  }
-  .container2{
-	display: flex;
-	justify-content: space-evenly;
-	
-  }
-  .container3{
-	display: flex;
-	justify-content: space-evenly;
-  }
-
+	flex-flow:row wrap;
+}	
 .box{
 	border: 1px solid black;
 	padding:10px;
 	margin:10px;
-	min-width:50%;
-	height: auto;
-	background-color: #f0f0f0;
+	width: 45%;
+	height: 50%;
 }
-.image1{
-	width: 100%;
-    height: auto;
-}
-.nav{
-	display:flex;
-}
-ul{
-	display: flex;
-}
-
 button{
 	padding-left:15px;
 	padding-right:15px;
@@ -136,28 +99,14 @@ button{
 }
 .bottom{
 	display:flex;
+	justify-content: space-evenly;
 }
-.image2{
-	min-width: 50%;
-	width: 90%;
-    float: right;
-}
-.box7{
-	width: 50%;
-    height: auto;
-}
-
-ul{
-	display: flex;
- 
+.boxone{
+		display:flex;
+		justify-content: space-evenly;
 }
 footer{
-	text-align: center;
-	margin: 20px;
+	display:flex;
+	justify-content: center;
 }
-li{
-	flex: 1 1 o;
-}
-.logo{
-	float:right;
-}
+
